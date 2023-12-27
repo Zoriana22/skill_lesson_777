@@ -11,7 +11,7 @@ const CardList = (props) => {
     const ProductListItems = Products.map(ProductItem =>
         <li key={ProductItem.id}>
 
-            <img src={require('./assets/camera_photo.jpg')} alt={ProductItem.title} />
+            <img src={ProductItem.imageURL} alt={ProductItem.title} />
             <span className={s.price}>{ProductItem.price}</span>
             <h3 className={s.product_title}>{ProductItem.title}</h3>
 
