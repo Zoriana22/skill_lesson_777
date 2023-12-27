@@ -29,11 +29,26 @@
     border-radius: 10px;
 }
 
+.price_counting {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .price {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 36px;
     font-weight: 500;
     color: greenyellow;
+    margin-right: 20px;
+}
+
+.old_price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: rgb(115, 116, 113);
 }
 
 .product_title {
